@@ -40,7 +40,8 @@ The project applies **Dimensional Modeling** by organizing data into fact and di
 
 ### Fact Table
 
-- **`sales`**: Stores sales-related measures and connects to the relevant dimensions, allowing sales analysis by product, payment method, loyalty card status, and date.
+- **`sales`**: Stores sales-related measures and connects to the relevant dimensions, supporting analysis by product, payment method, loyalty card status, and date.
+- **Fact Table Grain:** The grain of the `sales` fact table is **one row per sales transaction**, defining the level of detail stored in the fact table.
 
 ## 🔄 ETL Process Using SSIS
 
