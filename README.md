@@ -6,6 +6,18 @@ This project is a hands-on case study completed as part of the [Data Warehouse -
 
 The project focuses on building a Data Warehouse using **SQL Server Integration Services (SSIS)**, implementing ETL pipelines, incremental loading, and dimensional modeling to organize data for analytical reporting.
 
+## 📝 Implementation Note
+
+The original course implementation uses **PostgreSQL** as the database management system and **Pentaho** for ETL processes.
+
+However, I implemented this case study using **Microsoft SQL Server** and **SQL Server Integration Services (SSIS)** instead.
+
+This allowed me to apply the same Data Warehousing concepts, including layered architecture, ETL workflows, incremental loading, dimensional modeling, SCD Type 1, and Junk Dimensions, using a different technology stack.
+
+**Course Technologies:** PostgreSQL & Pentaho
+
+**My Implementation:** Microsoft SQL Server & SSIS
+
 ## 🏗️ Data Warehouse Architecture
 
 The project follows a layered architecture consisting of:
